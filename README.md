@@ -13,7 +13,7 @@ link: https://mattiacaprioli.github.io/counter-javascript-base/
 
 ## Screenshot
 
-![Banner](https://mattiacaprioli.github.io/project-js-advanced/src/img/screenshot.png)
+![Banner](https://mattiacaprioli.github.io/project-js-advanced/src/img/Screenshot.png)
 
 ## Tecnologie utilizzate
 
