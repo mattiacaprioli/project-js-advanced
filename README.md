@@ -9,7 +9,7 @@ Attraverso il sito web, è possibile inserire il nome di una città e accedere a
 
 ## Link deploy dell'app con netlify
 
-link: https://mattiacaprioli.github.io/counter-javascript-base/
+link: https://project-js-advanced.netlify.app/
 
 ## Screenshot
 
