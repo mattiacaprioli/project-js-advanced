@@ -1,0 +1,92 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* Imposta lo stile di base per il corpo della pagina */
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#load{
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index:33;
+  background:no-repeat center center rgba(255,255,255,1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spin{
+  width: 56px;
+  height: 56px;
+  z-index:34;
+  border-radius: 50%;
+  border: 9px solid #dbdcef;
+  border-right-color: #0d6efd;
+  animation: spinner-d3wgkg 1s infinite linear;
+}
+
+.banner-container {
+  height: 225px;
+  background-image: url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Imposta lo stile per il contenitore principale */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Imposta lo stile per il titolo principale */
+h1 {
+  font-size: 2rem;
+}
+
+/* Imposta lo stile per il textbox e il button */
+.input-group input[type="text"], .input-group button {
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.input-group input[type="text"] {
+  border: none;
+}
+
+.input-group button {
+  cursor: pointer;
+}
+
+/* Imposta lo stile per il button */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Imposta lo stile per il footer */
+footer {
+  font-size: 0.9rem;
+  color: #555;
+  position: static;
+  margin-top: auto;
+  height: 60px;
+}
+
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+@keyframes spinner-d3wgkg {
+  to {
+      transform: rotate(1turn);
+  }
+}
